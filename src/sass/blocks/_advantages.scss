@@ -9,7 +9,7 @@
         color: #0D0D0D;
         text-align: center;
     }
-    &__icons {
+    &__wrapper {
         display: flex;
         margin-top: 60px;
         width: 952x;
@@ -21,7 +21,7 @@
         text-align: center;
         
         img {
-            display: block;
+            display: block;           
             margin: 0 auto;           
         }
     }
