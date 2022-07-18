@@ -43,8 +43,7 @@
             }
         }
         &__subheader {            
-            font-size: 28px;
-            
+            font-size: 28px;            
         }
         &__text {
             
@@ -54,6 +53,51 @@
            
         }
     }
+}
+@media (max-width:575px) {
+    .header {
+        &__logo {            
+            img {
+                width: 85%;
+            }
+        }
+        &__phone {
+            font-size: 13px;
+        }
+    }
+    .button {
+        width: 130px;
+        font-size: 11px;
+    }
+    .promo {
+        &__header {
+            font-size: 34px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 20px;
+            text-align: center;
+        }
+        &__icons {
+            width: 320px;
+        }
+        &__icon {
+            font-size: 13px;
+        }
+    }
+    .advantages {
+        &__wrapper {            
+            min-height: 1050px;           
+        }       
+        &__icon {
+            width: 300px;           
+        }       
+        &__text {            
+            font-size: 18px;           
+        }
+    }
+
+
 }
 
 
