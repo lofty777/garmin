@@ -258,7 +258,7 @@
 
 .consultation {
   min-height: 680px;
-  padding: 100px 0 108px 0;
+  padding: 100px 0;
   background: url("../img/bg2.jpg") center center/cover no-repeat;
 }
 
@@ -281,6 +281,12 @@
   }
   .advantages__icon {
     width: 220px;
+  }
+  .consultation {
+    padding: 100px 20px;
+  }
+  .title_left {
+    font-size: 32px;
   }
 }
 
@@ -327,9 +333,6 @@
   .button_submit {
     width: 30%;
     font-size: 14px;
-  }
-  .consultation {
-    padding: 100px 20px;
   }
   .consultation__descr {
     text-align: center;

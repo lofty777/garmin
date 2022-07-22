@@ -11,6 +11,14 @@
             width: 220px;
         }
     }
+    .consultation {
+        padding: 100px 20px;
+    }
+    .title {
+        &_left {
+            font-size: 32px;           
+        }
+    }
 }
 @media (max-width:767px) {
     .promo {
@@ -58,7 +66,7 @@
         }
     }
     .consultation {
-        padding: 100px 20px;
+        
         &__descr {
             text-align: center;
         }
