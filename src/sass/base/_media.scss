@@ -51,6 +51,31 @@
             margin-bottom: 25px;           
         }
     }
+    .button {        
+        &_submit {
+            width: 30%; 
+            font-size: 14px;          
+        }
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+
+    }
+    .title {
+        &_left {
+            font-size: 24px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        width: 100%;
+        align-items: center;
+        input {
+            width: 70%;
+        }
+    }
 }
 @media (max-width:575px) {
     .header {
@@ -65,7 +90,7 @@
     }
     .button {
         width: 130px;
-        font-size: 11px;
+        font-size: 11px;       
     }
     .promo {
         &__header {
@@ -94,6 +119,8 @@
             font-size: 18px;           
         }
     }
+
+    
 
 }
 

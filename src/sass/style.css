@@ -256,6 +256,21 @@
   margin-bottom: 20px;
 }
 
+.consultation {
+  min-height: 680px;
+  padding: 100px 0 108px 0;
+  background: url("../img/bg2.jpg") center center/cover no-repeat;
+}
+
+.consultation__descr {
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: left;
+}
+
 @media (max-width: 992px) {
   .promo {
     padding: 21px 15px 93px 10px;
@@ -309,6 +324,26 @@
     line-height: 1.5;
     margin-bottom: 25px;
   }
+  .button_submit {
+    width: 30%;
+    font-size: 14px;
+  }
+  .consultation__descr {
+    text-align: center;
+  }
+  .title_left {
+    font-size: 24px;
+    text-align: center;
+  }
+  .feed-form {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feed-form input {
+    width: 70%;
+  }
 }
 
 @media (max-width: 575px) {
@@ -345,20 +380,5 @@
   .advantages__text {
     font-size: 18px;
   }
-}
-
-.consultation {
-  min-height: 680px;
-  padding: 100px 0 108px 0;
-  background: url("../img/bg2.jpg") center center/cover no-repeat;
-}
-
-.consultation__descr {
-  margin-top: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #ffffff;
-  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
