@@ -328,6 +328,9 @@
     width: 30%;
     font-size: 14px;
   }
+  .consultation {
+    padding: 100px 20px;
+  }
   .consultation__descr {
     text-align: center;
   }
