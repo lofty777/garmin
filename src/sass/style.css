@@ -3,6 +3,7 @@
 }
 
 .container {
+  position: relative;
   max-width: 950px;
   margin: 0 auto;
 }
@@ -281,7 +282,7 @@
   margin: 0 auto;
 }
 
-.carousel .slick-prev, .carousel .slick-next {
+.carousel .prev, .carousel .next {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -291,14 +292,19 @@
   background-color: #fff;
 }
 
-.carousel .slick-prev img, .carousel .slick-next img {
+.carousel .prev img, .carousel .next img {
   width: 31px;
   height: 50px;
 }
 
-.carousel .slick-next {
+.carousel .next {
   right: -66px;
   left: auto;
+}
+
+.carousel .tns-item img {
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 992px) {
