@@ -352,6 +352,7 @@
     "through2": "^2.0.5",
     "through2-filter": "^3.0.0",
     "time-stamp": "^1.1.0",
+    "tiny-slider": "^2.9.4",
     "to-absolute-glob": "^2.0.2",
     "to-object-path": "^0.3.0",
     "to-regex": "^3.0.2",
@@ -405,7 +406,6 @@
     "gulp-sass": "^5.1.0",
     "sass": "^1.53.0"
   },
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -420,5 +420,3 @@
   },
   "homepage": "https://github.com/lofty777/lofty#readme"
 }
-
-
