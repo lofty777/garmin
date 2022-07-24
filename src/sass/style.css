@@ -302,9 +302,18 @@
   left: auto;
 }
 
-.carousel .tns-item img {
+.carousel .swiper {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.carousel .swiper img {
   display: block;
   margin: 0 auto;
+}
+
+.carousel .swiper .swiper-button-prev, .carousel .swiper .swiper-button-next {
+  color: red;
 }
 
 @media (max-width: 992px) {

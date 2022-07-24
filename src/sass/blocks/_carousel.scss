@@ -23,12 +23,17 @@
         right: -66px;
         left: auto;
     }
-    .tns-item {
+    .swiper {
+        width: 850px;
+        margin: 0 auto;
         img {
             display: block;
-            margin: 0 auto;        
-        }        
-    }
+            margin: 0 auto;
+        }
+        .swiper-button-prev, .swiper-button-next {
+            color: red;
+        }
+      }
 
 }
 

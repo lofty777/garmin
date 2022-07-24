@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <!-- <link rel="stylesheet" href="css/slick.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 
 </head>
@@ -130,20 +129,42 @@
     </section>
 
     <section class="carousel">
-        <div class="container">
-            <div class="carousel__inner">
+        <!-- <div class="container">
+           <div class="carousel__inner">
                 <div>
-                    <img src="img/slide1.png" alt="slide">
+                    <img src="img/slide1.png" alt="slide"> 
                 </div>
                 <div>
                     <img src="img/slide2.png" alt="slide">
+                    
                 </div>
                 <div>
                     <img src="img/slide3.png" alt="slide">
+                    
                 </div>
             </div> 
             <button type="button" class="prev"><img src="icons/left.svg"></button>
             <button type="button" class="next"><img src="icons/right.svg"></button>'
+            
+        </div>   -->
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/slide1.png" alt="slide"> </div>
+              <div class="swiper-slide"><img src="img/slide2.png" alt="slide"> </div>
+              <div class="swiper-slide"><img src="img/slide3.png" alt="slide"> </div>
+              
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            
         </div>
 
     </section>
@@ -151,7 +172,9 @@
     <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

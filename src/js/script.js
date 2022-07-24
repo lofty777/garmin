@@ -16,16 +16,26 @@
 	});
 }); */
 
-const slider = tns({
-	container: '.carousel__inner',
-	items: 1,
-	slideBy: 'page',
-	autoplay: false,
-	controls: false,
-	nav: false
-});
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  autoHeight: true,
+  speed: 1200,
 
-document.querySelector('.prev').addEventListener('click', function () {  slider.goTo('prev');
-});
-document.querySelector('.next').addEventListener('click', function () {  slider.goTo('next');
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
 });
