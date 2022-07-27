@@ -28,6 +28,14 @@
            
         }
     }
+    .catalog {
+        .container {
+            max-width: 700px;
+        }
+        &-item {
+            margin: 0 auto 20px auto;
+        }
+    }
 }
 @media (max-width:767px) {
     .promo {
@@ -96,7 +104,7 @@
     }
     .carousel {
         .swiper {
-            width: 700px;
+            width: 550px;
             img {
                 width: 75%;
             }
@@ -108,6 +116,11 @@
                 position: relative;
                 bottom: 0px;                
             }
+        }
+    }
+    .catalog {
+        .container {
+            max-width: 600px;
         }
     }
        
