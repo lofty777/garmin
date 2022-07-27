@@ -36,6 +36,20 @@
             margin: 0 auto 20px auto;
         }
     }
+    .feedback {
+        .container {
+            max-width: 700px;
+        }
+        &__img {
+            margin: 0 auto;
+        }
+        &__content {
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: center;
+        }
+        
+    }
 }
 @media (max-width:767px) {
     .promo {
