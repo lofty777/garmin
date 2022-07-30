@@ -270,6 +270,10 @@
   margin-bottom: 20px;
 }
 
+.feed-form_mt25 {
+  margin-top: 25px;
+}
+
 .consultation {
   min-height: 680px;
   padding: 100px 0;
@@ -670,6 +674,63 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 36px auto 0 auto;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.56);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 382px;
+  min-height: 402px;
+  background: #F2F2F2;
+  padding: 35px 40px 40px 40px;
+}
+
+.modal__close {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  font-size: 41px;
+  color: #C70101;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.modal__subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  color: #0D0D0D;
+}
+
+.modal__descr {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #0D0D0D;
+}
+
+.modal_tnx {
+  margin-top: 25px;
+  min-height: 140px;
+}
+
+#consultation, #order, #tnx {
+  display: none;
 }
 
 @media (max-width: 992px) {
