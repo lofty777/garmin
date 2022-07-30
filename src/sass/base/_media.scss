@@ -47,8 +47,12 @@
             margin-left: 20px;
             margin-right: 20px;
             text-align: center;
+        }        
+    }
+    .footer {
+        &__info {
+            width: 50%;
         }
-        
     }
 }
 @media (max-width:767px) {
@@ -178,6 +182,11 @@
             font-size: 18px;
         }
     }
+    .footer {       
+        &__social {            
+            width: 185px;                  
+        }       
+    }
        
     
 }
@@ -252,6 +261,27 @@
             }
         }
         
+    }
+    .footer {
+        &__info {
+            padding: 25px;
+            height: 35%;
+        }
+        &__addr {            
+            font-size: 16px;    
+        }
+        &__phone {
+            margin-top: 20px;            
+            font-size: 16px;           
+        }
+        &__social {            
+            width: 180px;                  
+        }
+        &__social-item {
+            img {
+                width: 90%;
+            }
+        }
     }
 
     

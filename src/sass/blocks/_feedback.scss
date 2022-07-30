@@ -1,12 +1,9 @@
 .feedback {
     padding-bottom: 49px;
     &__wrapper {
-        display: flex;
-        
+        display: flex;        
         margin-top: 60px;
-        flex-wrap: wrap;
-        
-       
+        flex-wrap: wrap;       
     }
     &__img {
         display: block;
