@@ -818,12 +818,12 @@
     line-height: 1.5;
     margin-bottom: 25px;
   }
-  .button_submit {
-    width: 30%;
-    font-size: 14px;
-  }
   .consultation__descr {
     text-align: center;
+  }
+  .consultation .button_submit {
+    width: 250px;
+    font-size: 14px;
   }
   .title_left {
     font-size: 24px;
@@ -974,6 +974,15 @@
   }
   .footer__social-item img {
     width: 90%;
+  }
+  .modal {
+    width: 330px;
+  }
+  .modal__subtitle {
+    font-size: 15px;
+  }
+  .modal__descr {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=style.css.map */
