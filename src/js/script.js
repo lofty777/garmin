@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 	// Modal
 
-	$('[data-modal=consultation'). on('click', function() {
+	$('[data-modal=consultation]'). on('click', function() {
 		$('.overlay, #consultation').fadeIn('slow');
 
 	});
@@ -53,6 +53,32 @@ $(document).ready(function(){
 			$('.overlay, #order').fadeIn('slow');
 		});
 	});
+
+
+	function validateForms(form){
+		$(form).validate ({
+			rules: {
+				name: "required",
+				phone: "required",
+				email: {
+					required: true,
+					email: true
+				}
+			},
+			messages: {
+				name: "Пожалуйста введите своё имя",
+				phone: "Пожалуйста введите номер телефона",
+				email: {
+				  required: "Пожалуйста введите свою почту",
+				  email: "Неправильно введён адрес почты"
+				}
+			  }
+		});
+	};
+
+	validateForms('#consultation-form');
+	validateForms('#consultation form');
+	validateForms('#order form');
 
 });
 
