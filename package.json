@@ -231,6 +231,7 @@
     "negotiator": "^0.6.3",
     "next-tick": "^1.1.0",
     "node-releases": "^2.0.5",
+    "nodemailer": "^6.7.7",
     "normalize-package-data": "^2.5.0",
     "normalize-path": "^3.0.0",
     "normalize-range": "^0.1.2",

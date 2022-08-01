@@ -1,3 +1,33 @@
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -203,6 +233,16 @@
 .advantages__icon img {
   display: block;
   margin: 0 auto;
+}
+
+.advantages__icon_animated {
+  -webkit-animation: heartbeat 1.5s ease  infinite;
+          animation: heartbeat 1.5s ease  infinite;
+}
+
+.advantages__icon_animated:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 .advantages__subheader {
@@ -752,6 +792,19 @@
 
 #consultation, #order, #tnx {
   display: none;
+}
+
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.pageup img {
+  width: 100%;
 }
 
 @media (max-width: 992px) {

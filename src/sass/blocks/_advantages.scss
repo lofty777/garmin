@@ -17,6 +17,12 @@
             display: block;           
             margin: 0 auto;           
         }
+        &_animated {
+            animation: heartbeat 1.5s ease  infinite;            
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__subheader {
         margin-top: 35px;
