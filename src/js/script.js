@@ -120,6 +120,8 @@ $(document).ready(function(){
         return false;
     }); */
 
+	new WOW().init();
+
 });
 
 const swiper = new Swiper('.swiper', {
