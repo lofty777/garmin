@@ -4567,6 +4567,10 @@ progress {
   font-size: 14px;
 }
 
+.button_ordcall {
+  width: 153px;
+}
+
 .advantages {
   min-height: 470px;
   padding: 71px 0 64px 0;
@@ -5160,6 +5164,7 @@ progress {
   right: 40px;
   width: 40px;
   height: 40px;
+  z-index: 999;
 }
 
 .pageup img {
@@ -5269,7 +5274,7 @@ progress {
             align-items: center;
   }
   .feed-form input {
-    width: 70%;
+    width: 100%;
   }
   .carousel .swiper {
     width: 550px;
@@ -5339,8 +5344,17 @@ progress {
     font-size: 13px;
   }
   .button {
-    width: 130px;
+    width: 180px;
     font-size: 11px;
+  }
+  .button_ordcall {
+    width: 125px;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .title_left {
+    font-size: 24px;
   }
   .promo__header {
     font-size: 34px;
@@ -5356,6 +5370,9 @@ progress {
   .promo__icon {
     font-size: 13px;
   }
+  .advantages__subheader {
+    font-size: 26px;
+  }
   .advantages__wrapper {
     min-height: 1050px;
   }
@@ -5369,13 +5386,22 @@ progress {
     width: 350px;
   }
   .carousel .swiper img {
-    width: 85%;
+    width: 50%;
   }
   .catalog .container {
     max-width: 350px;
   }
   .catalog .title {
     line-height: 1.2;
+  }
+  .catalog-item {
+    width: 300px;
+  }
+  .catalog-item__subtitle {
+    font-size: 16px;
+  }
+  .catalog-item__descr {
+    font-size: 14px;
   }
   .catalog__tabs {
     margin-top: 30px;
@@ -5403,19 +5429,22 @@ progress {
     font-size: 16px;
   }
   .footer__social {
-    width: 180px;
+    width: 150px;
   }
   .footer__social-item img {
-    width: 90%;
+    width: 75%;
   }
   .modal {
-    width: 330px;
+    width: 250px;
   }
   .modal__subtitle {
     font-size: 15px;
   }
   .modal__descr {
     font-size: 12px;
+  }
+  .modal__close {
+    right: -30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
