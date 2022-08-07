@@ -1,20 +1,5 @@
-/* $(document).ready(function(){
-	$('.carousel__inner').slick({        
-		speed: 1200,    
-		adaptiveHeight: true,
-		prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
-		nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
-		responsive: [
-			{
-				breakpoint: 992,
-				settings: {          
-					dots: true,
-					arrows: false
-				}
-			}
-		]
-	});
-}); */
+
+
 $(document).ready(function(){
 	$('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
 		$(this)
@@ -80,29 +65,7 @@ $(document).ready(function(){
 
 	validateForms('#consultation-form');
 	validateForms('#consultation form');
-	validateForms('#order form');
-
-	
-	$('form').submit(function(e) {
-        e.preventDefault();
-		
-		if (!$(this).valid()) {
-			return;
-		}
-
-        $.ajax({
-            type: "POST",
-            url: "mailer/smart.php",
-            data: $(this).serialize()
-        }).done(function() {
-            $(this).find("input").val("");
-            $('#consultation, #order').fadeOut();
-            $('.overlay, #thanks').fadeIn('slow');
-
-            $('form').trigger('reset');
-        });
-        return false;
-	});
+	validateForms('#order form');	
 
 	// Smooth scroll and pageup
 
@@ -129,11 +92,17 @@ const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
   autoHeight: true,
-  speed: 1200,
+  speed: 1000,
+  autoplay: {
+	delay: 2500,
+	disableOnInteraction: false,
+  },
+  
 
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+	dynamicBullets: true,
   },
 
   // Navigation arrows

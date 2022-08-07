@@ -8,10 +8,11 @@
     color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
+    border:none;
     &:hover {
-        box-shadow: -3px -3px 20px blue;
+        box-shadow: -3px -3px 20px $main-color;
         border: none;
-        background: blue
+        background: $main-color;
     }
     &_main {
         width: 300px;

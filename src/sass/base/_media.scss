@@ -53,6 +53,12 @@
         &__info {
             width: 50%;
         }
+        &__addr {
+            font-size: 18px;
+        }
+    }
+    .pageup {
+        right: 15px;
     }
 }
 @media (max-width:767px) {
@@ -180,14 +186,19 @@
                 font-size: 18px;
             }             
         }
-        .button_mini {
+        
+    }
+
+    .button {
+        &_mini {
             font-size: 18px;
         }
     }
     .footer {       
         &__social {            
             width: 185px;                  
-        }       
+        }  
+             
     }
        
     
@@ -208,6 +219,11 @@
         font-size: 11px;
         &_ordcall {
             width: 125px;            
+        }
+        &_mini {
+            width: 120px;
+            font-size: 15px;
+            
         }       
     }
     .title {
@@ -233,11 +249,13 @@
         }
     }
     .advantages {
+        padding: 50px 0;
         &__subheader {
             font-size: 26px;
         }
         &__wrapper {            
-            min-height: 1050px;           
+            min-height: 1050px; 
+            margin-top: 20px;          
         }       
         &__icon {
             width: 300px;           
@@ -248,13 +266,11 @@
     }
     .carousel {
         .swiper {
-            width: 350px;
-            img {
-                width: 50%;
-            }           
+            width: 350px;                     
         }
     }
     .catalog {
+        padding-bottom: 40px;
         .container {
             max-width: 350px;
         }        
@@ -268,6 +284,17 @@
             }
             &__descr {
                 font-size: 14px;
+            }
+            &__list {
+                li {
+                    font-size: 14px;
+                }
+            }
+            &__old-price {
+                font-size: 16px;
+            }
+            &__new-price {
+                font-size: 20px;
             }
         }
 
@@ -295,7 +322,7 @@
         }
         &__phone {
             margin-top: 20px;            
-            font-size: 16px;           
+            font-size: 14px;           
         }
         &__social {            
             width: 150px;                  
@@ -316,6 +343,12 @@
         }
         &__close {
             right: -30px;
+        }
+    }
+    .pageup {
+        right: -5px;
+        img {
+            width: 80%;
         }
     }
 

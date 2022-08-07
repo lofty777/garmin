@@ -33,11 +33,16 @@
         .swiper-button-prev, .swiper-button-next {
             color: red;
         }
-
         .swiper-pagination {
+            display: block;
+            position: relative;
+            bottom: 0px;                
+        }
+
+     /*    .swiper-pagination {
             display: none;
             
-        }
+        } */
     }
 
 }

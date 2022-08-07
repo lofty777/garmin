@@ -4539,13 +4539,14 @@ progress {
   color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
+  border: none;
 }
 
 .button:hover {
-  -webkit-box-shadow: -3px -3px 20px blue;
-          box-shadow: -3px -3px 20px blue;
+  -webkit-box-shadow: -3px -3px 20px #C70101;
+          box-shadow: -3px -3px 20px #C70101;
   border: none;
-  background: blue;
+  background: #C70101;
 }
 
 .button_main {
@@ -4736,6 +4737,10 @@ progress {
 .carousel .swiper {
   width: 850px;
   margin: 0 auto;
+  /*    .swiper-pagination {
+            display: none;
+            
+        } */
 }
 
 .carousel .swiper img {
@@ -4748,7 +4753,9 @@ progress {
 }
 
 .carousel .swiper .swiper-pagination {
-  display: none;
+  display: block;
+  position: relative;
+  bottom: 0px;
 }
 
 .catalog {
@@ -5214,6 +5221,12 @@ progress {
   .footer__info {
     width: 50%;
   }
+  .footer__addr {
+    font-size: 18px;
+  }
+  .pageup {
+    right: 15px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -5328,7 +5341,7 @@ progress {
   .catalog-item__back {
     font-size: 18px;
   }
-  .catalog .button_mini {
+  .button_mini {
     font-size: 18px;
   }
   .footer__social {
@@ -5350,6 +5363,10 @@ progress {
   .button_ordcall {
     width: 125px;
   }
+  .button_mini {
+    width: 120px;
+    font-size: 15px;
+  }
   .title {
     font-size: 26px;
   }
@@ -5370,11 +5387,15 @@ progress {
   .promo__icon {
     font-size: 13px;
   }
+  .advantages {
+    padding: 50px 0;
+  }
   .advantages__subheader {
     font-size: 26px;
   }
   .advantages__wrapper {
     min-height: 1050px;
+    margin-top: 20px;
   }
   .advantages__icon {
     width: 300px;
@@ -5385,8 +5406,8 @@ progress {
   .carousel .swiper {
     width: 350px;
   }
-  .carousel .swiper img {
-    width: 50%;
+  .catalog {
+    padding-bottom: 40px;
   }
   .catalog .container {
     max-width: 350px;
@@ -5402,6 +5423,15 @@ progress {
   }
   .catalog-item__descr {
     font-size: 14px;
+  }
+  .catalog-item__list li {
+    font-size: 14px;
+  }
+  .catalog-item__old-price {
+    font-size: 16px;
+  }
+  .catalog-item__new-price {
+    font-size: 20px;
   }
   .catalog__tabs {
     margin-top: 30px;
@@ -5426,7 +5456,7 @@ progress {
   }
   .footer__phone {
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .footer__social {
     width: 150px;
@@ -5445,6 +5475,12 @@ progress {
   }
   .modal__close {
     right: -30px;
+  }
+  .pageup {
+    right: -5px;
+  }
+  .pageup img {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */
