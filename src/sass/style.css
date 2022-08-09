@@ -4574,7 +4574,7 @@ progress {
 
 .advantages {
   min-height: 470px;
-  padding: 71px 0 64px 0;
+  padding: 71px 0 20px 0;
 }
 
 .advantages__wrapper {
@@ -4595,6 +4595,8 @@ progress {
 }
 
 .advantages__icon img {
+  width: 65px;
+  height: 100px;
   display: block;
   margin: 0 auto;
 }
@@ -4610,7 +4612,7 @@ progress {
 }
 
 .advantages__subheader {
-  margin-top: 35px;
+  margin-top: 15px;
   font-weight: 700;
   font-size: 18px;
   line-height: 29px;
@@ -4618,7 +4620,7 @@ progress {
 }
 
 .advantages__text {
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
@@ -5367,6 +5369,9 @@ progress {
     width: 120px;
     font-size: 15px;
   }
+  .button_submit {
+    font-size: 14px;
+  }
   .title {
     font-size: 26px;
   }
@@ -5480,7 +5485,7 @@ progress {
     right: -5px;
   }
   .pageup img {
-    width: 80%;
+    width: 70%;
   }
 }
 /*# sourceMappingURL=style.css.map */

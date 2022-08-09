@@ -222,9 +222,11 @@
         }
         &_mini {
             width: 120px;
-            font-size: 15px;
-            
-        }       
+            font-size: 15px;            
+        } 
+        &_submit {
+            font-size: 14px;
+        }      
     }
     .title {
         font-size: 26px;
@@ -348,7 +350,7 @@
     .pageup {
         right: -5px;
         img {
-            width: 80%;
+            width: 70%;
         }
     }
 
